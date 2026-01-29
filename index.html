@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>AI Free Tools - Online Free Tools for Daily Tasks</title>
+    <meta name="description" content="Free AI-powered online tools: Image compressor, PDF converter, meme maker, video to MP3 converter. No registration required. 100% free.">
+    <meta name="keywords" content="online free tools, ai free tools, image compressor online, pdf converter online, meme maker online, video to mp3 converter">
+    <meta name="author" content="AI Free Tools">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="AI Free Tools - Free Online Tools for Everyone">
+    <meta property="og:description" content="Collection of free AI-powered online tools for daily tasks. Completely free, no registration needed.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS-in-JS for minimal requests -->
+    <style>
+        /* Critical CSS to prevent layout shift */
+        html { scroll-behavior: smooth; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; overflow-x: hidden; }
+    </style>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-gradient"></div>
+    <div class="bg-grid"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="site-title">AI Free Tools</h1>
+                <p class="tagline">Powerful, free AI-powered tools for everyday tasks. No registration required.</p>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Introduction -->
+            <section class="intro-section">
+                <h2 class="section-title">Free AI-Powered Online Tools</h2>
+                <p class="section-description">
+                    Our collection of free AI tools helps you handle daily tasks quickly and efficiently. 
+                    All tools are 100% free, require no registration, and work directly in your browser.
+                </p>
+            </section>
+            
+            <!-- Tools Grid -->
+            <section class="tools-section">
+                <h2 class="section-title visually-hidden">Available Tools</h2>
+                
+                <div class="tools-grid">
+                    <!-- Image Compressor Card -->
+                    <div class="tool-card">
+                        <div class="card-icon">🖼️</div>
+                        <h3 class="tool-name">Image Compressor Online</h3>
+                        <p class="tool-description">
+                            Reduce image file size without losing quality. Supports JPG, PNG, and WebP formats. 
+                            Optimize images for web, social media, or storage.
+                        </p>
+                        <button class="use-tool-btn" onclick="openTool('image-compressor')">
+                            Use Tool
+                        </button>
+                    </div>
+                    
+                    <!-- PDF to Word Converter Card -->
+                    <div class="tool-card">
+                        <div class="card-icon">📄</div>
+                        <h3 class="tool-name">PDF to Word Converter</h3>
+                        <p class="tool-description">
+                            Convert PDF files to editable Word documents instantly. Preserves formatting and layout.
+                            No watermarks, completely free.
+                        </p>
+                        <button class="use-tool-btn" onclick="openTool('pdf-converter')">
+                            Use Tool
+                        </button>
+                    </div>
+                    
+                    <!-- Meme Maker Card -->
+                    <div class="tool-card">
+                        <div class="card-icon">😂</div>
+                        <h3 class="tool-name">Meme Maker Online</h3>
+                        <p class="tool-description">
+                            Create hilarious memes in seconds. Choose from popular templates or upload your own images.
+                            Add text, stickers, and share directly.
+                        </p>
+                        <button class="use-tool-btn" onclick="openTool('meme-maker')">
+                            Use Tool
+                        </button>
+                    </div>
+                    
+                    <!-- Video to MP3 Converter Card -->
+                    <div class="tool-card">
+                        <div class="card-icon">🎵</div>
+                        <h3 class="tool-name">Video to MP3 Converter</h3>
+                        <p class="tool-description">
+                            Extract audio from videos and save as MP3 files. Supports MP4, AVI, MOV, and other popular video formats.
+                            Fast conversion with high-quality output.
+                        </p>
+                        <button class="use-tool-btn" onclick="openTool('video-converter')">
+                            Use Tool
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- More Tools Coming Soon -->
+                <div class="coming-soon">
+                    <h3 class="coming-soon-title">More Tools Coming Soon</h3>
+                    <p class="coming-soon-text">
+                        We're constantly working on adding more free AI tools to our collection.
+                        <span class="highlight">All tools will remain 100% free.</span>
+                    </p>
+                </div>
+            </section>
+            
+            <!-- Features Section -->
+            <section class="features-section">
+                <h2 class="section-title">Why Choose AI Free Tools?</h2>
+                
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="feature-icon">🔒</div>
+                        <h3 class="feature-title">Privacy First</h3>
+                        <p class="feature-description">All processing happens in your browser. We don't store or access your files.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">⚡</div>
+                        <h3 class="feature-title">Lightning Fast</h3>
+                        <p class="feature-description">Optimized for speed. Get results in seconds, not minutes.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">🆓</div>
+                        <h3 class="feature-title">100% Free</h3>
+                        <p class="feature-description">No hidden costs, no subscriptions, no watermarks. Truly free forever.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">📱</div>
+                        <h3 class="feature-title">Works Everywhere</h3>
+                        <p class="feature-description">Fully responsive design. Use on desktop, tablet, or mobile.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">AI Free Tools</div>
+                <p class="copyright">
+                    &copy; <span id="current-year">2023</span> AI Free Tools. All rights reserved.
+                </p>
+                <p class="footer-tagline">
+                    Empowering everyone with free AI tools for everyday tasks.
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    
+    <!-- Inline script for immediate functionality -->
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
